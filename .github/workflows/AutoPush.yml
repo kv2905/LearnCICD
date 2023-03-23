@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        run: git checkout auto_push
+        run: git checkout origin/auto_push
       - name: Fetch latest changes from master
         run: git fetch origin master
       - name: Merge changes from master
